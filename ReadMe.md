@@ -41,29 +41,37 @@ permission: social.fly
 description: Clears your inventory
 permission: social.ci
 
-Command: /Day
+/day
+description: Set time to day
 Permission: social.day
 
-Command: /night
+/night
+description: Set time to night
 Permission: social.night
 
-Command: /sun
+/sun
+description: Set weather to stop
 Permission: social.sun
 
-Command: /rain
+/rain
+description: Set weather to start
 Permission: social.rain
 
 ----------------
 NOT ENABLED YET
 ----------------
 Command: /timestop
+description: Locks the time of day
 Permission: social.timestop
 
 Command: /timestart
+description: Resumes the time of day
 Permission: social.timestart
 
 Command: /weatherlock
+description: Locks the current weather
 Permission: social.weatherlock
 
 Command: /weatherstart
+description: Resumes weather back to normal
 Permission: social.weatherlock
