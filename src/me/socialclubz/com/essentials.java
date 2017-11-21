@@ -26,7 +26,7 @@ public class essentials
                 getDataFolder(), "config.yml"), 2, new LinkedHashMap() {});
         config.save();
         getServer().getLogger().info("-----------------------");
-        getServer().getLogger().info("|      Enabled!       |");
+        getServer().getLogger().info("|       Enabled!      |");
         getServer().getLogger().info("|    AC-Essentials    |");
         getServer().getLogger().info("|         by          |");
         getServer().getLogger().info("|     SocialClubz     |");
