@@ -1,6 +1,6 @@
 # AC-Essentials
 
-This is a plugin intended for Nukkit.
+This is a plugin intended for Nukkit. (OPEN SOURCE)
 
 Nukkit Resource Page:
 https://forums.nukkit.io/resources/ac-essentials.119/
