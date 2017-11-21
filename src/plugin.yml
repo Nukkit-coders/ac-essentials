@@ -28,3 +28,21 @@ commands:
   ci:
     description: Clears your inventory
     permission: social.ci
+  day:
+    description: Sets the Time <Day>
+    permission: social.day
+  night:
+    description: Sets the Time <Night>
+    permission: social.night
+  sun:
+    description: Sets the weather <Sun>
+    permission: social.sun
+  rain:
+    description: Sets the weather <rain>
+    permission: social.rain
+  stoptime:
+    description: Stop the time
+    permission: social.stoptime
+  starttime:
+    description: Start the time
+    permission: social.startime

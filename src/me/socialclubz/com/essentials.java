@@ -13,6 +13,9 @@ import cn.nukkit.utils.Config;
 import java.io.File;
 import java.util.LinkedHashMap;
 
+import static cn.nukkit.level.Level.TIME_DAY;
+import static cn.nukkit.level.Level.TIME_NIGHT;
+
 public class essentials
         extends PluginBase
         implements Listener
@@ -237,6 +240,79 @@ public class essentials
             player1.isOnFire();
             player1.extinguish();
             player1.sendMessage("You are relaxed after some fun");
+        }
+        if (cmd.getName().equalsIgnoreCase("day")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) {
+                if (player.hasPermission("social.day")) {
+                    player.getLevel().setTime(TIME_DAY);
+                    sender.sendMessage("Time Set To Day");
+                }
+                return true;
+            }
+        }
+//night
+        if (cmd.getName().equalsIgnoreCase("night")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) if (player.hasPermission("social.night")) {
+                player.getLevel().setTime(TIME_NIGHT);
+                sender.sendMessage("Time Set To Night");
+                return true;
+            }
+        }
+//sun
+        if (cmd.getName().equalsIgnoreCase("sun")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) if (player.hasPermission("social.sun")) {
+                player.getLevel().setRainTime(0);
+                sender.sendMessage("Its Sunny Now");
+                return true;
+            }
+        }
+//sun
+        if (cmd.getName().equalsIgnoreCase("rain")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) if (player.hasPermission("social.rain")) {
+                player.getLevel().setRainTime(100);
+                sender.sendMessage("Storm Mode Now Active");
+                return true;
+            }
+        }
+//stoptime
+        if (cmd.getName().equalsIgnoreCase("stoptime")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) if (player.hasPermission("social.stoptime")) {
+                player.getLevel().stopTime();
+                sender.sendMessage("You Locked The Time");
+                return true;
+            }
+        }
+//starttime
+        if (cmd.getName().equalsIgnoreCase("starttime")) {
+            if (player == null) {
+                sender.sendMessage("You have to be a Player");
+                return true;
+            }
+            if (player != null) if (player.hasPermission("social.starttime")) {
+                player.getLevel().startTime();
+                sender.sendMessage("You Locked The Time");
+                return true;
+            }
         }
         return false;
     }
