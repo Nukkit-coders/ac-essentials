@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="AC-Essentials:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AC_Essentials_jar</output-path>
+    <root id="root">
+      <element id="archive" name="AC-Essentials.jar">
+        <element id="module-output" name="AC-Essentials" />
+      </element>
+    </root>
+  </artifact>
+</component>
