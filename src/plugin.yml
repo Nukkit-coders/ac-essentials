@@ -1,7 +1,7 @@
 name: AC-Essentials
 version: "1.0"
 author: socialclubz.com
-api: ["1.0.0"]
+api: ["1.0.1"]
 main: me.socialclubz.com.essentials
 commands:
   heal:
