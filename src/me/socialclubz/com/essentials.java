@@ -52,7 +52,6 @@ public class essentials
         if ((sender instanceof Player)) {
             player = (Player)sender;
         }
-//Clear Global Chat
         if (cmd.getName().equalsIgnoreCase("scc"))
         {
             if (player == null)
@@ -106,7 +105,6 @@ public class essentials
                 return true;
             }
         }
-//Clear Personal Chat
         if (cmd.getName().equalsIgnoreCase("cc"))
         {
             if (player == null)
@@ -167,7 +165,6 @@ public class essentials
         if ((sender instanceof Player)) {
             player = (Player)sender;
         }
-//Clear Inventory
         if (cmd.getName().equalsIgnoreCase("ci"))
         {
             if (player == null)
@@ -190,7 +187,6 @@ public class essentials
         if ((sender instanceof Player)) {
             player = (Player)sender;
         }
-//set self fly
         if (cmd.getName().equalsIgnoreCase("fly"))
         {
             if (player == null)
@@ -219,7 +215,6 @@ public class essentials
             return true;
         }
         Player player1 = (Player)sender;
-//heal
         if (cmd.getName().equalsIgnoreCase("heal"))
         {
             player1.heal(20.0F);
@@ -231,14 +226,12 @@ public class essentials
             f.setLevel(20);
             player1.sendMessage("You have been feed by the gods");
         }
-//removes fire
         if (cmd.getName().equalsIgnoreCase("ext"))
         {
             player1.isOnFire();
             player1.extinguish();
             player1.sendMessage("Water was thrown on you");
         }
-//removes fire, add full food and hearts
         if (cmd.getName().equalsIgnoreCase("healer"))
         {
             player1.heal(20.0F);
@@ -248,7 +241,6 @@ public class essentials
             player1.extinguish();
             player1.sendMessage("You are relaxed after some fun");
         }
-//day
         if (cmd.getName().equalsIgnoreCase("day")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
@@ -262,7 +254,6 @@ public class essentials
                 return true;
             }
         }
-//night
         if (cmd.getName().equalsIgnoreCase("night")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
@@ -274,7 +265,6 @@ public class essentials
                 return true;
             }
         }
-//sun
         if (cmd.getName().equalsIgnoreCase("sun")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
@@ -286,7 +276,6 @@ public class essentials
                 return true;
             }
         }
-//sun
         if (cmd.getName().equalsIgnoreCase("rain")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
@@ -298,7 +287,6 @@ public class essentials
                 return true;
             }
         }
-//stoptime
         if (cmd.getName().equalsIgnoreCase("stoptime")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
@@ -310,7 +298,6 @@ public class essentials
                 return true;
             }
         }
-//starttime
         if (cmd.getName().equalsIgnoreCase("starttime")) {
             if (player == null) {
                 sender.sendMessage("You have to be a Player");
