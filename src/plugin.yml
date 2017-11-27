@@ -2,7 +2,7 @@ name: AC-Essentials
 version: "1.0"
 author: socialclubz.com
 api: ["1.0.1"]
-main: me.socialclubz.com.essentials
+main: me.socialclubz.com.Command.essentials
 commands:
   heal:
     description: Recover your hearts
@@ -46,3 +46,9 @@ commands:
   starttime:
     description: Start the time
     permission: social.startime
+  tt:
+    description: Sends a Title to a Player!
+    permission: social.tt
+  ttp:
+    description: Sends a popup to a Player!
+    permission: social.ttp

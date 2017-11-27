@@ -60,18 +60,18 @@ Permission: social.rain
 ----------------
 NOT ENABLED YET
 ----------------
-Command: /timestop
+me.socialclubz.com.Command: /timestop
 description: Locks the time of day
 Permission: social.timestop
 
-Command: /timestart
+me.socialclubz.com.Command: /timestart
 description: Resumes the time of day
 Permission: social.timestart
 
-Command: /weatherlock
+me.socialclubz.com.Command: /weatherlock
 description: Locks the current weather
 Permission: social.weatherlock
 
-Command: /weatherstart
+me.socialclubz.com.Command: /weatherstart
 description: Resumes weather back to normal
 Permission: social.weatherlock

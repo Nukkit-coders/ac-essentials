@@ -1,4 +1,4 @@
-package me.socialclubz.com;
+package me.socialclubz.com.Command;
 
 import cn.nukkit.Player;
 import cn.nukkit.PlayerFood;
@@ -309,6 +309,7 @@ public class essentials
                 return true;
             }
         }
+
         return false;
     }
 }
