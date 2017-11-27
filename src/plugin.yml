@@ -1,5 +1,5 @@
 name: AC-Essentials
-version: "1.0"
+version: "1.0.1"
 author: socialclubz.com
 api: ["1.0.1"]
 main: me.socialclubz.com.Command.essentials
