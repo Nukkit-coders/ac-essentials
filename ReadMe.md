@@ -5,7 +5,7 @@ This is a plugin intended for Nukkit. (OPEN SOURCE)
 Nukkit Resource Page:
 
 [![Nukkit.io](https://img.shields.io/badge/Nukkit%20MobPlugin-Download-yellow.svg)](https://forums.nukkit.io/resources/ac-essentials.119//)
-[![Discord](https://discordapp.com/api/guilds/331619998059593738/widget.png)](https://discord.gg/tDfqkNB)
+[![Discord](https://discordapp.com/api/guilds/386601650963349504/widget.png)](https://discord.gg/rBew6kc)
 
 #Currently Added:
 
