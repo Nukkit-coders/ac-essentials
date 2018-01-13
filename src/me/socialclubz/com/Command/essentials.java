@@ -63,43 +63,9 @@ public class essentials
             {
                 if (player.hasPermission("social.scc"))
                 {
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
-                    Server.getInstance().broadcastMessage(" ");
+                    for (int i = 0; i < 121; i++) {
+                        Server.getInstance().broadcastMessage("");
+                    }
                 }
                 Server.getInstance().broadcastMessage("Global Chat Cleared");
                 return true;
@@ -116,47 +82,9 @@ public class essentials
             {
                 if (player.hasPermission("social.cc"))
                 {
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
-                    sender.sendMessage(" ");
+                    for (int i = 0; i < 121; i++) {
+                        sender.sendMessage("");
+                    };
                 }
                 sender.sendMessage("You Cleared Your Chat");
                 return true;
@@ -217,7 +145,7 @@ public class essentials
         Player player1 = (Player)sender;
         if (cmd.getName().equalsIgnoreCase("heal"))
         {
-            player1.heal(20.0F);
+            player1.heal(20);
             player1.sendMessage("Some stranger Healed you with a kiss");
         }
         if (cmd.getName().equalsIgnoreCase("eat"))
@@ -234,7 +162,7 @@ public class essentials
         }
         if (cmd.getName().equalsIgnoreCase("healer"))
         {
-            player1.heal(20.0F);
+            player1.heal(20);
             PlayerFood f = player1.getFoodData();
             f.setLevel(20);
             player1.isOnFire();
